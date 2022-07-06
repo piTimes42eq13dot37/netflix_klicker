@@ -1,8 +1,8 @@
 setInterval(clickNetflix, 1000);
 
 function clickNetflix(){
-	const labels = ['Nächste Folge','Intro überspringen']
-	labels.forEach(clicker)
+	const labels = ['Nächste Folge','Intro überspringen'];
+	labels.forEach(clicker);
 }
 
 function clicker(label){
